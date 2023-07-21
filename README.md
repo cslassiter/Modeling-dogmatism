@@ -10,3 +10,7 @@ This is exactly what it sounds like: the size of an agent's audience. It's defin
 
 ### Results
 All runs of the model without dogmatists (i.e. PBC = 0) converge eventually. Higher PBC and audience size values converge faster. When PBC and audience size values are allowed to vary (i.e. selected from a uniform random distribution between 0 and the value for the run), lower PBCs for agents result in a greater likelihood of their belief getting adopted. Similar comments going for higher audience sizes. However, while it was often the case that the agent with the lowest PBC was most often the agent whose belief was adopted by others, it was not the case that the agent with the highest audience size was most often the agent whose belief was adopted by others. That honor was reserved for agents whose audience size was typically in the bottom of the highest quintile of audience size values.
+
+# Dogmatism and Domination
+## Overview
+This model builds on the model developed in Arational Belief Convergence. Here, there are varying levels of dogmatists to explore the effects of increasing the proportion of dogmatists to nondogmatists.
